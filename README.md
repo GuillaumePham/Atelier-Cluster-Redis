@@ -4,13 +4,17 @@
 ## Etape 1 ##
 
 Création d'un conteneur avec une image en ligne docker
+
 docker run --name my-redis-container -d redis
 
 ## Etape 2 ##
 Création d'un cluster (réseau)
+
 docker network create redis-net
 
 ## Etape 3 ##
+Création d'une image redis 
+
 docker pull redis
 
 ## Etape 4 ##
